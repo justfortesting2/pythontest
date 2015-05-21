@@ -1,8 +1,8 @@
 # just a test
 
-def sayhello():
-    print 'Hello World!'
+def sayhello(name):
+    print 'Hello', name + '!'
 
 
 for i in range(100):
-    sayhello()
+    sayhello('World')

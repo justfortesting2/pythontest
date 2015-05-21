@@ -1,4 +1,8 @@
 # just a test
 
-for i in range(100):
+def sayhello():
     print 'Hello World!'
+
+
+for i in range(100):
+    sayhello()
